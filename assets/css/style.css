@@ -1,0 +1,146 @@
+*{
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Navbar */
+.navbar{
+    background-color: #E83E8C;
+    height: 75px;
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+}
+nav img{
+    width: 132px;
+    height: 53px;
+    margin-left: 119px;
+}
+
+#navbarNav ul li a{
+    letter-spacing: 0px;
+    color:#ffffff;
+    text-decoration: none;
+    top: 27px;
+    bottom: 26px; 
+    font-weight: 400px;
+    font-size: 16px; 
+    margin-right: 119px;
+}
+
+#contacto{
+    margin-right: 118px;
+}
+
+/* Grupo de Cards-------- */
+
+#titulo
+h1{
+    margin-top: 60px;
+    justify-content: center; 
+    text-align: center;
+    color: #707070;
+    opacity: 1;
+    font-weight: 700px; 
+    font-size: 51px;
+    margin-bottom: 30px;
+}
+h2{
+    color: #373A3C;
+    font-weight: 700px;
+    font-size: 17px;
+    text-align: left;
+}
+
+p{
+    color: #373A3C;
+    font-weight:400px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.card span{
+    color:#373A3C;
+    font-weight:400px;
+    font-size: 11px;
+    text-align: left;
+}
+.card {
+    margin:  auto;
+    border-top-right-radius: 0px solid transparent; 
+}
+
+.card-link{
+    color: #1C7CD5;
+    font-weight:400px;
+    font-size: 11px;
+    text-align: left;
+}
+
+@media (min-width:768px) {
+    .card{
+    margin: 5rem;
+    margin-bottom: 30px !important;
+    }
+
+    h1{
+        font-size: 60px !important;
+        margin-bottom: 50px;
+    }
+    #Logo{
+margin-left: 119px!important;
+    }
+}
+   
+.card-body a{
+    text-decoration: none;
+}
+.card img{
+    border-radius: 8px;
+}
+
+/* Métodos de pagos */
+.containerpagos{
+    height: 170px;
+    background: #17A2B8;
+    opacity: 1;
+    color:#ffffff;
+    margin-top: 8%; 
+}
+.pagos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: auto 0;
+}
+
+.pagos h3{
+    font-size: 40px;
+    font-weight: 700px;
+    margin-right: 130px;
+    color: #FFFFFF;
+    height: 55px;
+    width: 350px;
+}
+
+.icons i{
+    width: 80px;
+    height: 53px;
+}
+
+/* Footer */
+
+.footer{   
+    height: 184px;
+    background: #E83E8C;
+}
+
+.footer img{
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    width: 53px;
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 53.5px;
+}
