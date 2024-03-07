@@ -22,7 +22,7 @@ nav img{
     text-decoration: none;
     top: 27px;
     bottom: 26px; 
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 16px; 
     margin-right: 119px;
 }
@@ -40,27 +40,27 @@ h1{
     text-align: center;
     color: #707070;
     opacity: 1;
-    font-weight: 700px; 
+    font-weight: 700; 
     font-size: 51px;
     margin-bottom: 30px;
 }
 h2{
     color: #373A3C;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 17px;
     text-align: left;
 }
 
 p{
     color: #373A3C;
-    font-weight:400px;
+    font-weight:400;
     font-size: 16px;
     text-align: left;
 }
 
 .card span{
     color:#373A3C;
-    font-weight:400px;
+    font-weight:400;
     font-size: 11px;
     text-align: left;
 }
@@ -71,7 +71,7 @@ p{
 
 .card-link{
     color: #1C7CD5;
-    font-weight:400px;
+    font-weight:400;
     font-size: 11px;
     text-align: left;
 }
@@ -90,7 +90,7 @@ p{
 margin-left: 119px!important;
     }
 }
-   
+
 .card-body a{
     text-decoration: none;
 }
@@ -116,14 +116,17 @@ margin-left: 119px!important;
 
 .pagos h3{
     font-size: 40px;
-    font-weight: 700px;
+    font-weight: 700;
     margin-right: 130px;
     color: #FFFFFF;
     height: 55px;
-    width: 350px;
 }
 
-.icons-sectioni{
+
+
+
+.icons-section i{
+
     width: 80px;
     height: 53px;
 }
